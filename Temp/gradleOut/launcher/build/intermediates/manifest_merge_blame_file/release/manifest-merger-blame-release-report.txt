@@ -68,137 +68,184 @@
 40
 41    <application
 41-->/home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:3-116
-42        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
-42-->[com.android.support:support-compat:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/f13e80600485f087c51c6872f934df1c/support-compat-28.0.0/AndroidManifest.xml:22:18-91
-43        android:extractNativeLibs="true"
-43-->/home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:16-48
-44        android:icon="@mipmap/app_icon"
-44-->/home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:82-113
-45        android:label="@string/app_name"
-45-->/home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:49-81
-46        android:requestLegacyExternalStorage="true"
-46-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:27:18-61
-47        android:supportsRtl="true" >
-47-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:20:18-44
-48        <activity
-48-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:28:9-47:20
-49            android:name="com.unity3d.player.UnityPlayerActivity"
-49-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:29:13-66
-50            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-50-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:30:13-194
-51            android:hardwareAccelerated="false"
-51-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:31:13-48
-52            android:launchMode="singleTask"
-52-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:32:13-44
-53            android:screenOrientation="landscape"
-53-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:33:13-50
-54            android:theme="@style/UnityThemeSelector" >
-54-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:34:13-54
-55            <intent-filter>
-55-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:35:13-39:29
-56                <action android:name="android.intent.action.MAIN" />
-56-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:36:17-69
-56-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:36:25-66
-57
-58                <category android:name="android.intent.category.LAUNCHER" />
-58-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:17-77
-58-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:27-74
-59            </intent-filter>
-60
-61            <meta-data
-61-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:41:13-43:40
-62                android:name="unityplayer.UnityActivity"
-62-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:42:17-57
-63                android:value="true" />
-63-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:43:17-37
-64            <meta-data
-64-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:44:13-46:40
-65                android:name="android.notch_support"
-65-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:45:17-53
-66                android:value="true" />
-66-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:46:17-37
-67        </activity>
-68
-69        <meta-data
-69-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:49:9-51:33
-70            android:name="unity.splash-mode"
-70-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:50:13-45
-71            android:value="0" />
-71-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:51:13-30
-72        <meta-data
-72-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:52:9-54:36
-73            android:name="unity.splash-enable"
-73-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:53:13-47
-74            android:value="True" />
-74-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:54:13-33
-75        <meta-data
-75-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:55:9-57:50
-76            android:name="notch.config"
-76-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:56:13-40
-77            android:value="portrait|landscape" />
-77-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:57:13-47
-78        <meta-data
-78-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:58:9-60:68
-79            android:name="unity.build-id"
-79-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:59:13-42
-80            android:value="31960f5c-9754-498a-9b5d-38f49a681c09" />
-80-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:60:13-65
-81
-82        <activity
-82-->[com.google.android.gms:play-services-base:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/087c54f9126acb40c57f6ac908c43059/play-services-base-15.0.1/AndroidManifest.xml:23:9-26:75
-83            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-83-->[com.google.android.gms:play-services-base:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/087c54f9126acb40c57f6ac908c43059/play-services-base-15.0.1/AndroidManifest.xml:24:13-79
-84            android:exported="false"
-84-->[com.google.android.gms:play-services-base:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/087c54f9126acb40c57f6ac908c43059/play-services-base-15.0.1/AndroidManifest.xml:25:13-37
-85            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-85-->[com.google.android.gms:play-services-base:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/087c54f9126acb40c57f6ac908c43059/play-services-base-15.0.1/AndroidManifest.xml:26:13-72
-86
-87        <meta-data
-87-->[com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:23:9-25:69
-88            android:name="com.google.android.gms.version"
-88-->[com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:24:13-58
-89            android:value="@integer/google_play_services_version" />
-89-->[com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:25:13-66
-90
+42        android:allowBackup="true"
+42-->[:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:12:9-35
+43        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+43-->[com.android.support:support-compat:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/f13e80600485f087c51c6872f934df1c/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+44        android:extractNativeLibs="true"
+44-->/home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:16-48
+45        android:icon="@mipmap/app_icon"
+45-->/home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:82-113
+46        android:label="@string/app_name"
+46-->/home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:49-81
+47        android:requestLegacyExternalStorage="true"
+47-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:27:18-61
+48        android:supportsRtl="true" >
+48-->[:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:14:9-35
+49        <activity
+49-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:28:9-47:20
+50            android:name="com.unity3d.player.UnityPlayerActivity"
+50-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:29:13-66
+51            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+51-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:30:13-194
+52            android:hardwareAccelerated="false"
+52-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:31:13-48
+53            android:launchMode="singleTask"
+53-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:32:13-44
+54            android:screenOrientation="landscape"
+54-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:33:13-50
+55            android:theme="@style/UnityThemeSelector" >
+55-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:34:13-54
+56            <intent-filter>
+56-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:35:13-39:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:36:17-69
+57-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:36:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:17-77
+59-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:27-74
+60            </intent-filter>
+61
+62            <meta-data
+62-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:41:13-43:40
+63                android:name="unityplayer.UnityActivity"
+63-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:42:17-57
+64                android:value="true" />
+64-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:43:17-37
+65            <meta-data
+65-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:44:13-46:40
+66                android:name="android.notch_support"
+66-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:45:17-53
+67                android:value="true" />
+67-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:46:17-37
+68        </activity>
+69
+70        <meta-data
+70-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:49:9-51:33
+71            android:name="unity.splash-mode"
+71-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:50:13-45
+72            android:value="0" />
+72-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:51:13-30
+73        <meta-data
+73-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:52:9-54:36
+74            android:name="unity.splash-enable"
+74-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:53:13-47
+75            android:value="True" />
+75-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:54:13-33
+76        <meta-data
+76-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:55:9-57:50
+77            android:name="notch.config"
+77-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:56:13-40
+78            android:value="portrait|landscape" />
+78-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:57:13-47
+79        <meta-data
+79-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:58:9-60:68
+80            android:name="unity.build-id"
+80-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:59:13-42
+81            android:value="e49cb8a7-7282-4a6a-bad4-7edebd1419fe" />
+81-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:60:13-65
+82
+83        <activity
+83-->[com.google.android.gms:play-services-base:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/087c54f9126acb40c57f6ac908c43059/play-services-base-15.0.1/AndroidManifest.xml:23:9-26:75
+84            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+84-->[com.google.android.gms:play-services-base:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/087c54f9126acb40c57f6ac908c43059/play-services-base-15.0.1/AndroidManifest.xml:24:13-79
+85            android:exported="false"
+85-->[com.google.android.gms:play-services-base:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/087c54f9126acb40c57f6ac908c43059/play-services-base-15.0.1/AndroidManifest.xml:25:13-37
+86            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+86-->[com.google.android.gms:play-services-base:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/087c54f9126acb40c57f6ac908c43059/play-services-base-15.0.1/AndroidManifest.xml:26:13-72
+87
+88        <meta-data
+88-->[com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:23:9-25:69
+89            android:name="com.google.android.gms.version"
+89-->[com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:24:13-58
+90            android:value="@integer/google_play_services_version" /> <!-- For enableVrMode use the value vs. the string so Unity can build it. -->
+90-->[com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:25:13-66
 91        <activity
-91-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:21:9-25:66
-92            android:name="com.google.cardboard.sdk.QrCodeCaptureActivity"
-92-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:22:13-74
-93            android:exported="false"
-93-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:23:13-37
-94            android:label="@string/title_activity_qr_code_capture"
-94-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:24:13-67
-95            android:theme="@style/Theme.AppCompat.NoActionBar" />
-95-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:25:13-63
-96        <!--
-97          Activity whose sole purpose is to update Cardboard device params when a Cardboard V1
-98          NFC tag is detected.
-99        -->
-100        <activity
-100-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:31:9-44:20
-101            android:name="com.google.cardboard.sdk.HeadsetDetectionActivity"
-101-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:32:13-77
-102            android:exported="true"
-102-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:33:13-36
-103            android:label="@string/headset_detection_activity_title" >
-103-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:34:13-69
-104
-105            <!-- Handles the Cardboard V1 NFC tag released at Google I/O 2014. -->
-106            <intent-filter>
-106-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:37:13-43:29
-107                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
-107-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:38:17-77
-107-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:38:25-74
-108
-109                <category android:name="android.intent.category.DEFAULT" />
-109-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:40:17-76
-109-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:40:27-73
-110
-111                <data android:scheme="cardboard" />
-111-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:42:17-52
-111-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:42:23-49
+91-->[:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:17:9-28:20
+92            android:name="com.google.gvr.keyboardsupport.TransitionVRActivity"
+92-->[:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:18:13-79
+93            android:configChanges="density|keyboardHidden|navigation|orientation|screenSize|uiMode"
+93-->[:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:19:13-100
+94            android:enableVrMode="com.google.vr.vrcore/com.google.vr.vrcore.common.VrCoreListenerService"
+94-->[:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:20:13-106
+95            android:exported="false"
+95-->[:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:21:13-37
+96            android:label="@string/app_name"
+96-->[:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:22:13-45
+97            android:resizeableActivity="false" >
+97-->[:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:23:13-47
+98            <intent-filter>
+98-->[:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:24:13-27:29
+99                <category android:name="android.intent.category.LAUNCHER" />
+99-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:17-77
+99-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:27-74
+100                <category android:name="com.google.intent.category.DAYDREAM" />
+100-->[:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:26:17-80
+100-->[:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:26:27-77
+101            </intent-filter>
+102        </activity> <!-- For enableVrMode use the value vs. the string so Unity can build it. -->
+103        <activity
+103-->[:gvr-permissionsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/f5589f19ef008033ecc8646b357db9ea/gvr-permissionsupport-release/AndroidManifest.xml:17:9-27:20
+104            android:name="com.google.gvr.permissionsupport.TransitionVRActivity"
+104-->[:gvr-permissionsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/f5589f19ef008033ecc8646b357db9ea/gvr-permissionsupport-release/AndroidManifest.xml:18:13-81
+105            android:configChanges="density|keyboardHidden|navigation|orientation|screenSize|uiMode"
+105-->[:gvr-permissionsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/f5589f19ef008033ecc8646b357db9ea/gvr-permissionsupport-release/AndroidManifest.xml:19:13-100
+106            android:enableVrMode="com.google.vr.vrcore/com.google.vr.vrcore.common.VrCoreListenerService"
+106-->[:gvr-permissionsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/f5589f19ef008033ecc8646b357db9ea/gvr-permissionsupport-release/AndroidManifest.xml:20:13-106
+107            android:exported="false"
+107-->[:gvr-permissionsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/f5589f19ef008033ecc8646b357db9ea/gvr-permissionsupport-release/AndroidManifest.xml:21:13-37
+108            android:label="@string/app_name" >
+108-->[:gvr-permissionsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/f5589f19ef008033ecc8646b357db9ea/gvr-permissionsupport-release/AndroidManifest.xml:22:13-45
+109            <intent-filter>
+109-->[:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:24:13-27:29
+110                <category android:name="android.intent.category.LAUNCHER" />
+110-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:17-77
+110-->[:unityLibrary] /home/venturus/Unity3dProjects/Tutorial_Unity2020_Cardboard_XR_Plugin/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:27-74
+111                <category android:name="com.google.intent.category.DAYDREAM" />
+111-->[:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:26:17-80
+111-->[:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:26:27-77
 112            </intent-filter>
 113        </activity>
-114    </application>
-115
-116</manifest>
+114        <activity
+114-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:21:9-25:66
+115            android:name="com.google.cardboard.sdk.QrCodeCaptureActivity"
+115-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:22:13-74
+116            android:exported="false"
+116-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:23:13-37
+117            android:label="@string/title_activity_qr_code_capture"
+117-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:24:13-67
+118            android:theme="@style/Theme.AppCompat.NoActionBar" />
+118-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:25:13-63
+119        <!--
+120          Activity whose sole purpose is to update Cardboard device params when a Cardboard V1
+121          NFC tag is detected.
+122        -->
+123        <activity
+123-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:31:9-44:20
+124            android:name="com.google.cardboard.sdk.HeadsetDetectionActivity"
+124-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:32:13-77
+125            android:exported="true"
+125-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:33:13-36
+126            android:label="@string/headset_detection_activity_title" >
+126-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:34:13-69
+127
+128            <!-- Handles the Cardboard V1 NFC tag released at Google I/O 2014. -->
+129            <intent-filter>
+129-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:37:13-43:29
+130                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+130-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:38:17-77
+130-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:38:25-74
+131
+132                <category android:name="android.intent.category.DEFAULT" />
+132-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:40:17-76
+132-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:40:27-73
+133
+134                <data android:scheme="cardboard" />
+134-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:42:17-52
+134-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/9811881b44156585dfb7ca9d0520ba79/sdk/AndroidManifest.xml:42:23-49
+135            </intent-filter>
+136        </activity>
+137    </application>
+138
+139</manifest>
